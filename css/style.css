@@ -7,10 +7,10 @@ body {
     font-family: 'Outfit', Helvetica;
     margin: 0;
     padding: 0;
-    background-color:rgba(14, 10, 31, 1)
-    ;
+    background-color: rgba(14, 10, 31, 1);
     color: #fff;
 }
+
 /*Colores*/
 :root {
     --White: #FFF;
@@ -18,9 +18,10 @@ body {
     --PL-2: #8A015C;
     --PL-4: #F2029E;
 }
+
 /* Tipografías*/
 
-.h1{
+.h1 {
     font-family: Outfit;
     font-size: 3rem;
     font-style: normal;
@@ -30,7 +31,7 @@ body {
     text-transform: uppercase;
 }
 
-.h2{
+.h2 {
     font-family: Outfit;
     font-size: 2.25rem;
     font-style: normal;
@@ -40,7 +41,7 @@ body {
     text-transform: uppercase;
 }
 
-.h3{
+.h3 {
     font-family: Outfit;
     font-size: 1.875rem;
     font-style: normal;
@@ -49,16 +50,16 @@ body {
     letter-spacing: 0.026rem;
 }
 
-.h4{
+.h4 {
     font-family: Outfit;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.0225rem; 
+    letter-spacing: 0.0225rem;
 }
 
-.h5{
+.h5 {
     font-family: Outfit;
     font-size: 1rem;
     font-style: normal;
@@ -67,25 +68,27 @@ body {
     letter-spacing: 0.016rem;
 }
 
-.h6{
+.h6 {
     font-family: Outfit;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.014rem; 
+    letter-spacing: 0.014rem;
 }
+
 /* termina tipografia*/
 
 /*footer menu y componentes*/
-.footer-menu{
+.footer-menu {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
     padding: 1.75rem 2.5rem 3rem 2.5rem;
 }
-.footer-navbar{
+
+.footer-navbar {
     display: flex;
     width: 33.75rem;
     flex-direction: column;
@@ -93,7 +96,8 @@ body {
     gap: 0.875rem;
 
 }
-.footer-navbar nav{
+
+.footer-navbar nav {
     display: flex;
     height: 0rem;
     padding: 0rem 0.875rem;
@@ -104,28 +108,30 @@ body {
 }
 
 .footer-navbar nav a {
-    text-decoration: none; 
+    text-decoration: none;
     text-align: center;
-    transition: color 0.3s ease; 
-    color: var(--White); 
+    transition: color 0.3s ease;
+    color: var(--White);
 }
 
 .footer-navbar nav a:hover {
-    color: rgba(182, 2, 119, 1); /* Color del texto en hover */
+    color: rgba(182, 2, 119, 1);
+    /* Color del texto en hover */
 }
 
 /*Siguiente componente*/
-.footer-contactanos{
+.footer-contactanos {
     display: flex;
     width: 27.4375rem;
     flex-direction: column;
     align-items: flex-end;
     gap: 1.5rem;
 }
-.contact-btn{
+
+.contact-btn {
     color: var(--White, #FFF);
-    text-align: center; 
-    text-decoration: none; 
+    text-align: center;
+    text-decoration: none;
     display: flex;
     width: 8.875rem;
     padding: 0.25rem;
@@ -134,57 +140,65 @@ body {
     gap: 0.625rem;
     border-radius: 0.75rem;
     background-color: var(--PL-3, #B60277)
-    
 }
-.contact-btn:hover{
-        background-color: var(--PL-2,#6E0148)
+
+.contact-btn:hover {
+    background-color: var(--PL-2, #6E0148)
 }
+
 /*Siguiente componente*/
-.divisor{
+.divisor {
     display: flex;
     width: 100%;
     height: 0rem;
     justify-content: center;
     align-items: center;
 }
+
 /*Siguiente componente*/
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
     padding: 1.75rem 2.5rem;
 }
-.RRSS{
-display: inline-flex;
-align-items: center;
-gap: 1.5rem;
+
+.RRSS {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.5rem;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
 }
-.politicas{
+
+.politicas {
     display: inline-flex;
     height: 7.5rem;
     padding: 3.75rem 0rem 0rem;
     align-items: flex-end;
     gap: 0.75rem;
 }
-.columna{
+
+.columna {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem; 
-}
-.columna a {
-    color: var(--White); 
-    text-decoration: none; 
+    gap: 0.5rem;
 }
 
-.columna a:hover{
+.columna a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.columna a:hover {
     text-decoration: underline;
 }
+
 /*componente completado*/
