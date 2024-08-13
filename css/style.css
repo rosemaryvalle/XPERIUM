@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    background: url('/Image/Hero_Background.jpg') center fixed; /* Fondo */
+    background-size: cover;
+    color: #fff; /* Texto blanco */
+  }
+  
+  header { /*distancia con el header*/
+    padding: 150px 40px; /*margen superior e inferior, izq-der*/
+    text-align: left;
+  }
+  
+  .hero {
+    text-align: left;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+  
+  h4 {
+    background: rgb(225, 225, 225, 0.2); /*cuadro transparente*/
+    border-radius: 20px;                    /*radio de los bordes*/
+    backdrop-filter: blur (4px);            /*transparencia*/
+    box-shadow: 0 0 0 1px rgb(255, 255, 255); /*borde del cuadro*/
+    width: fit-content;                     /*El cuadro se ajusta al contenido*/
+    position: relative;                     /*puedo mover a gusto el cuadro*/
+    left: -200px;
+    
+    text-align: flex-start;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding: 20px 20px 20px 200px; /* Agrega bordes */
+  }
+  
+  p {
+    font-size: 18px;
+  }
