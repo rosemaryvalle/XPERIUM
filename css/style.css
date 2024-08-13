@@ -5,6 +5,8 @@ body {
   /* Texto blanco */
 }
 
+/* Barra de navegación Rose */
+
 .navbar {
   display: flex;
   width: auto;
@@ -12,6 +14,7 @@ body {
   padding: 0rem 1.75rem;
   justify-content: space-between;
   align-items: center;
+  /*margin-bottom: 11.6875rem;*/
 }
 
 .logo-img {
@@ -75,12 +78,107 @@ body {
   text-align: left;
 }
 
+/* Servicios Marcelo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+/* esto es para resetear los parametros*/
+
+.servicios{
+  display: flex; 
+  width: 41.3125rem; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 8.5625rem; 
+  padding: 1.75rem 2.5rem;
+}
+
+.contenido{
+  display: flex; 
+  width: 34.5625rem; 
+  align-items: flex-start; 
+  gap: 3.75rem; 
+}
+
+.contenido img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.info{
+  display: flex; 
+  width: 28.5625rem; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 14.625rem; 
+  flex-shrink: 0; 
+  align-self: stretch; 
+  z-index: 1;
+}
+
+
+.cuerpo{
+  display: flex; 
+  width: 28rem; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 1.5rem; 
+  margin-bottom: 30px; 
+}
+
+.texto{
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  width: 28rem;
+}
+
+.cubo{
+  position: absolute; 
+  top: 200; 
+  right: 0;
+  width: 75rem; 
+  height: auto; 
+  z-index: 0; /* Opcional: asegura que la imagen esté detras de otros elementos */
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.cubo img {
+  width: 75rem;
+  height: auto;
+}
+
+/* HTML y headings */
+
 html {
   font-size: 100%;
   background-image: linear-gradient(180deg, rgba(14, 10, 31, 1) 0%, rgba(5, 19, 36, 1) 100%);
 }
 
-h4 {
+.h1 {
+  font-family: Outfit;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.036rem;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-family: Outfit;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.027rem;
+  text-transform: uppercase;
+}
+
+h3 {
   padding: 20px 20px 20px 200px;
   background: rgb(225, 225, 225, 0.2);
   /*cuadro transparente*/
@@ -93,7 +191,7 @@ h4 {
 
   backdrop-filter: blur(4px);
 
-  width: 40.8125rem;
+  width: auto;
   /*El cuadro se ajusta al contenido*/
   position: absolute;
   /*puedo mover a gusto el cuadro*/
@@ -105,6 +203,16 @@ h4 {
   margin-bottom: 60px;
   /* Agrega bordes */
 }
+
+.h4 {
+  font-family: Outfit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+}
+
 
 p {
   font-size: 18px;
