@@ -1,39 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-
 body {
-    font-family: "Outfit", sans-serif;
-    background: url('/Image/Hero_Background.jpg') center fixed; /* Fondo */
-    background-size: cover;
-    color: #fff; /* Texto blanco */
-  }
-  
-  header { /*distancia con el header*/
-    padding: 150px 40px; /*margen superior e inferior, izq-der*/
-    text-align: left;
-  }
-  
-  .hero {
-    text-align: left;
-    max-width: 2000px;
-    margin: 0 auto;
-  }
-  
-  h4 {
-    background: rgb(225, 225, 225, 0.2); /*cuadro transparente*/
-    border-radius: 20px;                    /*radio de los bordes*/
-    backdrop-filter: blur (4px);            /*transparencia*/
-    box-shadow: 0 0 0 1px rgb(255, 255, 255); /*borde del cuadro*/
-    width: fit-content;                     /*El cuadro se ajusta al contenido*/
-    position: relative;                     /*puedo mover a gusto el cuadro*/
-    left: -200px;
-    
-    text-align: flex-start;
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 60px;
-    padding: 20px 20px 20px 200px; /* Agrega bordes */
-  }
-  
-  p {
-    font-size: 18px;
-  }
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  /* Texto blanco */
+}
+
+.navbar {
+  display: flex;
+  width: auto;
+  height: 7.5rem;
+  padding: 0rem 1.75rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 13.25788rem;
+  height: 2.151rem;
+  left: 1.75rem;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  /* Elimina los puntos de la lista */
+  display: flex;
+  /* Muestra los elementos en línea */
+  margin: 0;
+  /* Elimina el margen */
+  padding: 0;
+  /* Elimina el relleno */
+  display: inline-flex;
+  align-items: center;
+  gap: 2.3125rem;
+}
+
+.nav-item {
+  margin-left: 2.3125rem;
+  /* Espacio entre los elementos de la nav */
+}
+
+.nav-item a {
+  color: #fff;
+  /* Hace que el texto sea transparente */
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.0225rem;
+  text-decoration: none;
+  /* Elimina el subrayado */
+  transition: background 0.3s, color 0.3s;
+  /* Transición suave */
+}
+
+.nav-item a:hover {
+  color: #F2029E;
+}
+
+/* Silvia Hero Section */
+
+.hero-img img{
+  float: right;
+  width: 78.56088rem;
+  height: 43.60444rem;
+  display: block;
+  margin-left: auto;
+}
+
+.hero {
+  text-align: left;
+}
+
+html {
+  font-size: 100%;
+  background-image: linear-gradient(180deg, rgba(14, 10, 31, 1) 0%, rgba(5, 19, 36, 1) 100%);
+}
+
+h4 {
+  padding: 20px 20px 20px 200px;
+  background: rgb(225, 225, 225, 0.2);
+  /*cuadro transparente*/
+  border-radius: 20px;
+  /*radio de los bordes*/
+  backdrop-filter: blur (4px);
+  /*transparencia*/
+  box-shadow: 0 0 0 1px rgb(255, 255, 255);
+  /*borde del cuadro*/
+
+  backdrop-filter: blur(4px);
+
+  width: 40.8125rem;
+  /*El cuadro se ajusta al contenido*/
+  position: absolute;
+  /*puedo mover a gusto el cuadro*/
+  left: -175px;
+
+  text-align: flex-start;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  /* Agrega bordes */
+}
+
+p {
+  font-size: 18px;
+  position: absolute;
+  left: 2.5625rem;
+  padding: 275px 10px;
+}
