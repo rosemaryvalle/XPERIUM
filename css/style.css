@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Outfit, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: 7.5rem;
+    padding: 0rem 1.75rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E0A1F;
+}
+
+.logo-img {
+    width: 13.25788rem;
+    height: 2.151rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Muestra los elementos en línea */
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+    display: inline-flex;
+    align-items: center;
+    gap: 2.3125rem;
+}
+
+.nav-item {
+    margin-left: 2.3125rem; /* Espacio entre los elementos de la nav */
+}
+
+.nav-item a {
+    color: #fff; /* Hace que el texto sea transparente */
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0225rem;
+    text-decoration: none; /* Elimina el subrayado */
+    transition: background 0.3s, color 0.3s; /* Transición suave */
+}
+
+.nav-item a:hover {
+    color: #F2029E;
+}
