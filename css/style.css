@@ -349,7 +349,7 @@ img:hover {
 .footer-navbar nav {
   display: flex;
   height: 0rem;
-  padding: 0rem 0.875rem;
+  padding: 0rem 0.875rem 0rem 0rem;
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
@@ -596,6 +596,8 @@ p {
 
 /* Tablet empieza acá */
 @media screen and (max-width:1440px){
+
+
 /* Servicios Tablet */
 
 .cubo {
@@ -617,8 +619,112 @@ p {
   height: auto;
 }
 
+ /* Footer Tablet */
+ .h3C {
+  font-family: Outfit;
+  text-align: right;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.026rem;
 }
 
+.footer-contactanos {
+  text-align: right;
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+ 
+
+}
+
+/* Footer mid empieza acá */
+@media screen and (max-width:1000px){
+  .footer-navbar {
+    display: flex;
+    width: 33.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  
+  .footer-navbar nav {
+    display: flex;
+    height: 0rem;
+    padding: 0rem 0.875rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  
+  }
+  
+  .footer-contactanos {
+    text-align: right;
+    display: flex;
+    width: 24rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+
+  .logofooter {
+    display: flex;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .h3C {
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.026rem;
+  }
+
+  .h5 {
+    font-family: Outfit;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.016rem;
+  }
+
+  .h6 {
+    font-family: Outfit;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.014rem;
+  }
+
+  .politicas {
+    display: inline-flex;
+    height: 7.5rem;
+    width: 10rem;
+    padding: 3.75rem 0rem 0rem 0rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  
+  }
 
 
 /* Mobile empieza acá */
@@ -683,6 +789,88 @@ p {
     letter-spacing: 0.0225rem;
     margin-bottom: 1.2rem;
   }
+
+
+  /* Footer */  
+  .footer-navbar {
+    display: flex;
+    width: 33.75rem;
+    flex-direction: column;
+    align-items: flex-start;
   
   }
+  
+  .footer-navbar nav {
+    display: flex;
+    height: 0rem;
+    padding: 0rem 0.875rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  
+  }
+  
+  .footer-contactanos {
+    text-align: right;
+    display: flex;
+    width: 24rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+
+  .logofooter {
+    display: flex;
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .h3C {
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.026rem;
+  }
+
+  .h5 {
+    font-family: Outfit;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.016rem;
+  }
+
+  .h6 {
+    font-family: Outfit;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.014rem;
+  }
+
+  .politicas {
+    display: inline-flex;
+    height: 7.5rem;
+    width: 10rem;
+    padding: 3.75rem 0rem 0rem 0rem;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  
+}
 
