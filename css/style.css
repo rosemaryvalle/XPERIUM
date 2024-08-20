@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Outfit", sans-serif;
   color: #fff;
+  /* width: */
   /* Texto blanco */
 }
 
@@ -116,7 +117,7 @@ body {
   width: 28.5625rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14.625rem;
+  gap: 13.8rem;
   flex-shrink: 0;
   align-self: stretch;
   z-index: 1;
@@ -129,7 +130,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
-  margin-bottom: 30px;
 }
 
 .texto {
@@ -593,3 +593,96 @@ p {
   line-height: normal;
   letter-spacing: 0.026rem;
 }
+
+/* Tablet empieza acá */
+@media screen and (max-width:1440px){
+/* Servicios Tablet */
+
+.cubo {
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  top: 200;
+  right: 0;
+  width: 46.13331rem;
+  height: auto;
+  z-index: 0;
+  /* Opcional: asegura que la imagen esté detras de otros elementos */
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.cubo img {
+  width: 46.13331rem;
+  height: auto;
+}
+
+}
+
+
+
+/* Mobile empieza acá */
+@media screen and (max-width:880px){
+  
+  /* Servicios Tablet */
+
+  .cuerpo {
+    display: flex;
+    width: 24rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .cubo {
+    opacity: 0%;
+    position: absolute;
+    display: block;
+    margin-right: auto;
+    top: 200;
+    right: 0;
+    width: 30.64606rem;
+    height: auto;
+    z-index: 0;
+    /* Opcional: asegura que la imagen esté detras de otros elementos */
+    padding-right: 4rem;
+    padding-top: 1rem;
+  }
+  
+  .cubo img {
+    width: 30.64606rem;
+    height: auto;
+  }
+
+  .h1A {
+    font-family: Outfit;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.036rem;
+    text-transform: uppercase;
+  }
+
+  .h2A {
+    font-family: Outfit;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.027rem;
+    text-transform: uppercase;
+  }
+
+  .h4 {
+    font-family: Outfit;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0225rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  }
+
