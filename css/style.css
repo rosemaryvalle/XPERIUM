@@ -279,8 +279,9 @@ img:hover {
 }
 
 .container {
-  padding-left: 13%;
-  width: 85%;
+  width: 100%;
+  padding-left: 2.5625rem;
+  padding-right: 2.5625rem;
   display: flex;
   justify-content: space-between;
   gap: 90px;
@@ -620,6 +621,7 @@ p {
 }
 
  /* Footer Tablet */
+
  .h3C {
   font-family: Outfit;
   text-align: right;
@@ -638,6 +640,9 @@ p {
   align-items: flex-end;
   gap: 1.5rem;
 }
+
+/* Nosotros Tablet */
+
  
 
 }
@@ -722,6 +727,7 @@ p {
     align-items: flex-start;
     gap: 0.5rem;
   }
+  
 
   
   }
@@ -730,7 +736,7 @@ p {
 /* Mobile empieza acá */
 @media screen and (max-width:880px){
   
-  /* Servicios Tablet */
+  /* Servicios Mobile */
 
   .cuerpo {
     display: flex;
@@ -791,7 +797,7 @@ p {
   }
 
 
-  /* Footer */  
+  /* Footer Mobile*/  
   .footer-navbar {
     display: flex;
     width: 33.75rem;
@@ -870,6 +876,73 @@ p {
     align-items: flex-start;
     gap: 0.5rem;
   }
+
+  /* PortafolioMobile */
+
+  .h2B {
+    color: var(--White, #FFF);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.027rem;
+    text-transform: uppercase;
+    margin-top: 8.0625rem;
+    margin-bottom: 4.0625rem;
+    margin-left: 2.75rem;
+  }
+  
+
+    /* Nosotros Mobile */
+
+    .container {
+      width: 51.125rem;
+      padding-left: 2.5625rem;
+      padding-right: 2.5625rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 60px;
+      margin-bottom: 12.5625rem;
+    }
+    
+    .image-container {
+      position: relative;
+      width: 45%;
+      overflow: hidden;
+    
+    }
+    
+    .image-container img {
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(1);
+      transition: filter 0.3s ease;
+    }
+
+    .h1B {
+      color: var(--White, #FFF);
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.036rem;
+      text-transform: uppercase;
+      margin-top: 16.0625rem;
+      margin-bottom: 4.1875rem;
+      margin-left: 2.75rem;
+    }
+
+    .p2B {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0;
+    }
+    
+    .h3B {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 1rem;
+    }
 
   
 }
